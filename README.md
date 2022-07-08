@@ -13,13 +13,14 @@ version](https://img.shields.io/badge/R%3E%3D-4.0.3-6666ff.svg)](https://cran.r-
 ## Structure and folders
 
   - **R**: contains the functions of the package. All functions placed
-    here will be imported when using “devtools::load\_all()”. Currently
-    all functions are inside the R file sampling. This may change in the
-    future.
+    here will be imported when using “devtools::load\_all()”. All functions related to 
+    modelling and computation are in the folder Sampling. All functions related to plots are 
+    in the folder Ploting.
   - **man**: documentation of the package. This is automatized through
     the package roxygen2.
   - **tests**: contains the tests of the package. Each R file is
     associated to a function in the package.
+  - **models**: contains multiple STAN models.
   - **docs**: additional documentation of the package manually
     generated.
   - **data**: contains data to be used in the examples of the package.
