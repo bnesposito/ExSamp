@@ -15,7 +15,7 @@ Exploration Sampling algorithm (Kasy & Sautmann, 2021). The code can accommodate
 and models. Currently implemented are:
   - The Beta Bernoulli model used in Kasy & Sautmann, 2021.
   - A hierarchical Binomial model as in Esposito & Sautmann, 2022.
-  - A simple Binomail and a Poisson model.
+  - A simple Binomial and a Poisson model.
 
 For details see Esposito & Sautmann [working paper](https://drive.google.com/file/d/1HJCZQzavbKgGE3n8w4TiGviMq7wi37Vf/view)
 The simple binomial and Bernoulli models are also available as a simple to use and intuitive [dashboard](https://bnesposito.shinyapps.io/exsampdashboard/).
