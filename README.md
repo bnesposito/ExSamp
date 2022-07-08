@@ -20,8 +20,6 @@ version](https://img.shields.io/badge/R%3E%3D-4.0.3-6666ff.svg)](https://cran.r-
     the package roxygen2.
   - **tests**: contains the tests of the package. Each R file is
     associated to a function in the package.
-  - **scripts**: contains scripts that use the functions of the package.
-    The simulation script is located here.
   - **docs**: additional documentation of the package manually
     generated.
   - **data**: contains data to be used in the examples of the package.
@@ -29,7 +27,7 @@ version](https://img.shields.io/badge/R%3E%3D-4.0.3-6666ff.svg)](https://cran.r-
 ### Application flowchart
 
 ![Main
-flowchart](https://github.com/Exploration-Sampling/exSamp/blob/develop/docs/main_flowchart.svg?raw=true)
+flowchart](https://github.com/bnesposito/exSamp/blob/master/docs/main_flowchart_v09.svg?raw=true)
 
 ## Testing status (74.1% test coverage)
 
@@ -92,15 +90,3 @@ flowchart](https://github.com/Exploration-Sampling/exSamp/blob/develop/docs/main
       - Subject:
           - Check that the empirically asymptotic p-shares are close to
             the true treatment p-share with a tolerance of 0.01.
-
-## Scripts
-
-  - **simulation.R**: implementation of a simulation to observe the
-    behavior of the exploration sampling p-shares under different
-    scenarios.
-      - Scope:
-          - Variable number of treatments
-          - Variable treatment effects
-          - Variable number of waves
-          - Variable sample size
-          - Fixed sample size across waves
