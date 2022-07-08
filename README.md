@@ -10,6 +10,16 @@ version](https://img.shields.io/badge/R%3E%3D-4.0.3-6666ff.svg)](https://cran.r-
 [![Last-changedate](https://img.shields.io/badge/last%20change-2021--03--03-yellowgreen.svg)](/commits/master)
 <!-- badges: end -->
 
+The R code in this repository provides an application that can carry out policy choice experiments using the 
+Exploration Sampling algorithm (Kasy & Sautmann, 2021). The code can accommodate a range of outcome distributions 
+and models. Currently implemented are:
+  - The Beta Bernoulli model used in Kasy & Sautmann, 2021.
+  - A hierarchical Binomial model as in Esposito & Sautmann, 2022.
+  - A simple Binomail and a Poisson model.
+
+For details see Esposito & Sautmann [working paper](https://drive.google.com/file/d/1HJCZQzavbKgGE3n8w4TiGviMq7wi37Vf/view)
+The simple binomial and Bernoulli models are also available as a simple to use and intuitive [dashboard](https://bnesposito.shinyapps.io/exsampdashboard/).
+
 ## Structure and folders
 
   - **R**: contains the functions of the package. All functions placed
